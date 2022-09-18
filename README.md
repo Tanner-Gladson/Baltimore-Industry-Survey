@@ -1,3 +1,5 @@
+Built in 35 hours at HopHacks 2022 by Carol Zhang, Daniel Moon, Ethan Yang, and Tanner Gladson.
+
 **Inspiration**
 
 We were inspired to make this project because we realized that there was a wide gap between our needs for different types of restaurants & clothing stores around campus. It's a problem across Baltimore, where the goods & services people need aren't easily accessible due to distance. But, business don't know where this demand is.
@@ -20,4 +22,7 @@ The next step is scaling up the app to more industries & collecting real data in
 
 **To Use the App:**
 
-Go to https://dcce-192-12-14-1.ngrok.io/ and open on Incognito Mode. Ngrok was used to host the localhost onto a server, so to avoid security, opening on Incognito mode is necessary.
+Go to https://dcce-192-12-14-1.ngrok.io/ and open on Incognito Mode. I used Ngrok to host my localhost onto a server, so to avoid security opening on Incognito mode is necessary.
+
+
+If launching your own, run dash1real.py
