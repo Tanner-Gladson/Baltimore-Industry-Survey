@@ -25,3 +25,18 @@ The next step is scaling up the app to more industries & collecting real data in
 Go to https://dcce-192-12-14-1.ngrok.io/ and open on Incognito Mode. Ngrok was used to host the localhost onto a server, so to avoid security, opening on Incognito mode is necessary.
 
 To run on your own: download pandas, plotly, plotly.express, dash, dash bootstrap componenents, and dash bootstrap templates. Run dash1real.py.
+
+
+**9/24/2023 Doockerization**
+To run with docker on host port 60008, run these from within the Baltimore-Industry-Survey directory.
+
+```
+docker kill baltimore-industry-survey
+docker rm baltimore-industry-survey
+docker image rm baltimore-industry-survey -f
+docker build -t baltimore-industry-survey .
+docker run -p 127.0.0.1:60008:8080 --name baltimore-industry-survey --shm-size=100m baltimore-industry-survey
+```
+
+Connect with `http://<host-address>:60008`
+Kill the container with `docker kill baltimore-industry-survey`

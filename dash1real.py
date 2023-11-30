@@ -408,7 +408,7 @@ def set_level_options(selected_industry):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False, port=8080)
+    app.run_server(host="0.0.0.0", debug=False, port=8080)
 
 
 
